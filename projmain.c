@@ -1,6 +1,6 @@
 #include<stdio.h>
 
 int main() {
-
-return o;
+//this is where the code goes
+return 0;
 }

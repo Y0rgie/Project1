@@ -1,9 +1,14 @@
-#include<stdio.h>
+#include<stdio.h> //standard library
 
-//function
+int encrypt(void); //function header  - this is currently doing nothing
+int letter(int *A);
 
-int main() {
-// convert letters to ASCII
+
+int main() { //code block start//
+// TO convert letters to ASCII
+    int A; //initialise the pointer value
+    
+//******
 
 //input key
 //input of text with spaces and punctuation accpeted

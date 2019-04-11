@@ -12,8 +12,8 @@ int main (){
         }
         for (ch = 'a'; ch <= 'z'; ++ch) {
         int k = ch;
-        }
-    
+    }
+
     N = (k + n)%26;
            
     for (N = 'A'; N <= 'Z'; N++) {

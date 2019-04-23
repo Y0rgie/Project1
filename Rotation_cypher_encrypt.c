@@ -1,19 +1,20 @@
 #include<stdio.h>
 
-int main (){
-    ch[] = "this is the words"; //string of letters
-    
-    int n = 3; //the key is a shift by 3
-    char N;
-    char ch;
-    while(ch >=1) {   
-        for (ch = 'A'; ch <= 'Z'; ++ch) {
-        int k = ch;
-        }
-        for (ch = 'a'; ch <= 'z'; ++ch) {
-        int k = ch;
-    }
+void Rotator(char* text, int key);
 
+int main (){
+    
+    int key = 1 ;
+    char text [];
+    printf("Enter Text to encrypt: \n");
+    
+    //input text
+    
+    printf("Encyrpted text : ");
+    
+}
+
+void Rotator(char* text, int key) {
     N = (k + n)%26;
            
     for (N = 'A'; N <= 'Z'; N++) {
